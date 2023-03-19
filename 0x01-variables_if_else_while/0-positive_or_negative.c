@@ -4,10 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/** main - a program that prints if a number is negative
+
+/**
+ * main - a program that prints if a number is negative
  * or positive or equal to 0
  * Return : 0 (Success)
  */
+
 int main(void)
 {
 	int n;
@@ -15,15 +18,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n<0)
+	if (n < 0)
 	{
-		printf("is negative\n");
+		printf("%d is negative\n", n);
 	}
-	else if(n>0)
+	else if(n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n", n);
 	}
-	else printf("is zero\n");
+	else
+		printf("%d is zero\n", n);
 
 	return (0);
 }
