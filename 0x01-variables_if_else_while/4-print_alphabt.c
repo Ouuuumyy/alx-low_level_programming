@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-        char alphabet[52]= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i=o;
+	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = o;
 
-	while(i < 52 &&  alphabet[i] != 'q' && alphabet[i] != 'e')
+	while (i < 52 &&  alphabet[i] != 'q' && alphabet[i] != 'e')
 		{
-                putchar( alphabet[i]);
+		putchar(alphabet[i]);
 		i++;
 		}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
