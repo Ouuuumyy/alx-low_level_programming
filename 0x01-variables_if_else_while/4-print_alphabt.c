@@ -1,4 +1,4 @@
-#include < stdio.h>
+#include <stdio.h>
 /**
  * main - a program that prints the alphabet using putchar
  * Return: Always 0
