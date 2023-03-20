@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	char alphabet[52] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 26 ; i++)
 	{
 		if (alphabet[i] != 'q' && alphabet[i] != 'e')
 		{
