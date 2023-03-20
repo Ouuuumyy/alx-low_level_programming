@@ -8,11 +8,13 @@ int main(void)
 	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 
-	while (i < 52 &&  alphabet[i] != 'q' && alphabet[i] != 'e')
+	for (i = 0; i < 52; i++)
+	{
+		if (alphabet[i] != 'q' && alphabet[i] != 'e')
 		{
 		putchar(alphabet[i]);
-		i++;
 		}
+	}
 	putchar('\n');
 	return (0);
 }
