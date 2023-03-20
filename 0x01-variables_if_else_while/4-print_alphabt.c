@@ -6,7 +6,7 @@
 int main(void)
 {
 	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i = o;
+	int i = 0;
 
 	while (i < 52 &&  alphabet[i] != 'q' && alphabet[i] != 'e')
 		{
