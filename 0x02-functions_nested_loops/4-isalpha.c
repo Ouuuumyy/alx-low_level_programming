@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - aprogram that prints alphabets
- * @:is the character to be checked
+ * @c:is the character to be checked
  * Return: 1 (Success), otherwise 0
  */
 int _isalpha(int c)
