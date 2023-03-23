@@ -7,7 +7,13 @@
 int _isupper(int c)
 {
 	if (c <= 'Z' && c >= 'A')
+	{
+		printf("is uppercase\n");
 		return (0);
+	}
 	else
+	{
+		printf("is not uppercase\n");
 		return (1);
+	}
 }
