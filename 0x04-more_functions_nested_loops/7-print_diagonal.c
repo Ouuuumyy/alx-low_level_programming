@@ -2,12 +2,13 @@
 
 /**
  * print_diagonal - is a function that print s a diagonal
+ *@n: the number entered
  */
 void print_diagonal(int n)
 {
 	int i, l;
 
-	if ( n == 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
