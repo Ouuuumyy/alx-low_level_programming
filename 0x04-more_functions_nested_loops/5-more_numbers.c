@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * more_numbers - print numbers fron 0 to 14
  */
@@ -18,4 +18,5 @@ void more_numbers(void)
 		_putchar((i % 10) + '0');
 	}
 	_putchar('\n');
+	}
 }
