@@ -7,9 +7,11 @@ void _puts(char *str)
 {
 	int  i;
 	int m;
-	int t[m] ;
 
-	m  = _strlen(*str);
+	m  = _strlen(str);
+
+	int t[];
+
 	t[m] = *str;
 	for (i = 0; i < m; i++)
 	{
