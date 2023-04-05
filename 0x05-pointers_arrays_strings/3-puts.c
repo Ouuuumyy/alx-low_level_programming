@@ -10,12 +10,9 @@ void _puts(char *str)
 
 	m  = _strlen(str);
 
-	int t[];
-
-	t[m] = *str;
 	for (i = 0; i < m; i++)
 	{
-	printf("%c", t[i]);
+	printf("%c",( *str + i));
 	}
 	printf("\n");
 }
