@@ -8,17 +8,19 @@ void puts2(char *str)
 {
 	int longs = 0;
 	int i;
+	int l = 0;
+	char *p = str;
 
-	while (*str != '\0')
+	while (*p != '\0')
 	{
 		longs++;
-		str++;
+		p++;
 	}
-	longs--;
-	for (i = 0; i <= longs; i++)
+	l = longs-1;
+	for (i = 0; i <= l; i++)
 	{
-		if (i %  2 == 0)
-			printf("%c", (*str + i));
+		if(i % 2 == 0)
+			putchar(str[0]);
 	}
-	printf("\n");
+	putchar('\n');
 }
