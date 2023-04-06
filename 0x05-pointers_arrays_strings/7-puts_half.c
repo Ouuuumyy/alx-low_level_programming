@@ -16,7 +16,7 @@ void puts_half(char *str)
 		p++;
 	}
 	l = (longs - 1) / 2;
-	for (i = l; i < longs ; i++)
+	for (i = (l + 1); i < longs ; i++)
 	{
 		printf("%c", str[i]);
 	}
