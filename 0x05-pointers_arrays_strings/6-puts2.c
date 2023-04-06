@@ -14,10 +14,10 @@ void puts2(char *str)
 		longs++;
 		str++;
 	}
-	longs--;
+	--longs;
 	for (i = 0; i <= longs; i++)
 	{
-		if (i %  2== 0)
+		if (i %  2 == 0)
 			printf("%c", str[i]);
 	}
 	printf("\n");
