@@ -19,8 +19,8 @@ void puts2(char *str)
 	l = longs-1;
 	for (i = 0; i <= l; i++)
 	{
-		if(i % 2 == 0)
-			putchar(str[0]);
+		if (i % 2 == 0)
+			putchar(str[i]);
 	}
 	putchar('\n');
 }

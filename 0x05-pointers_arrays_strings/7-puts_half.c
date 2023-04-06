@@ -7,14 +7,16 @@ void puts_half(char *str)
 {
 	int longs = 0;
 	int i;
+	int l = 0;
+	char *p = str;
 
-	while (*str != '\0')
+	while (*p != '\0')
 	{
 		longs++;
-		str++;
+		p++;
 	}
-	longs--;
-	for (i = 0; i <= (longs / 2); i++)
+	l = (longs - 1) / 2;
+	for (i = l; i < longs ; i++)
 	{
 		printf("%c", str[i]);
 	}
