@@ -18,11 +18,9 @@ char *_strcpy(char *dest, char *src)
 		longs++;
 		p++;
 	}
-	l = longs + 1;
-	for (i = 0; i <= l; i++)
+	for (i = 0; i <= longs; i++)
 	{ 
-		dest[0] = src[i];
-		dest++;
+		dest[i] = src[i];
 	}
 	return (dest);
 }
