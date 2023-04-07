@@ -11,6 +11,7 @@ char *_strcpy(char *dest, char *src)
 	int i;
 	int longs = 0;
 	char *p = src;
+	int l;
 
 	while (*p != '\0')
 	{
