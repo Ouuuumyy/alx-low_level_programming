@@ -8,7 +8,7 @@
  */
 int main(int __attribute__((unused)) argc , char *argv[])
 {
-	printf("%s", *argv++);
+	printf("%s", *argv);
 
 	return (0);
 }
