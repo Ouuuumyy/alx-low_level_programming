@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 		printf("Error");
 		return (1);
 	}
+
 	else
 	{
 	a = atoi(argv[1]);
