@@ -12,13 +12,20 @@
 int main(int argc, char *argv[])
 {
 	int mul = 0;
-	while (argc <= 2)
-	{
-		if (argc < 2)
-			printf("Error");
+	int a;
+	int b;
 
-		mul = atoi(argc[1]) * atoi(argc[2]);
-		printf("%d\n", mul);
+	if (argc != 2)
+	{
+		printf("Error");
+	}
+	else
+	{
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	mul = a * b;
+	printf("%d\n", mul);
+
 	}
 
 	return (0);
