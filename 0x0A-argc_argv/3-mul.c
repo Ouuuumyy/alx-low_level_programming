@@ -12,12 +12,13 @@
 int main(int argc, char *argv[])
 {
 	int mul = 0;
-	int a;
-	int b;
+	int a = 0;
+	int b = 0;
 
-	if (argc != 2)
+	if (argc != 3)
 	{
 		printf("Error");
+		return (1);
 	}
 	else
 	{
@@ -26,7 +27,6 @@ int main(int argc, char *argv[])
 	mul = a * b;
 	printf("%d\n", mul);
 
-	}
-
 	return (0);
+	}
 }
