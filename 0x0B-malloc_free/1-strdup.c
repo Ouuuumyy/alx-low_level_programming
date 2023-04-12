@@ -22,11 +22,13 @@ char *_strdup(char *str)
 	
 	if (str == NULL)
 	{
-		printf("failed to allocate memory\n");
 		return (NULL);
 	}
 	s = malloc(sizeof(char) * len + 1);
-
+	if (s == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < len; i++)
 	{
 		s[i] = str[i];
