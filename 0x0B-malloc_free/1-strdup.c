@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.hY>
+#include <stdlib.h>
 /**
  * _strdup - a fucntion that duplicates a string
  * str: input
