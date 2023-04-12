@@ -19,11 +19,7 @@ char *_strdup(char *str)
 		y++;
 		len++;
 	}
-	if (len == 0)
-	{
-		printf("failed to allocate memory\n");
-		return (NULL);
-	}
+	
 	if (str == NULL)
 	{
 		printf("failed to allocate memory\n");
