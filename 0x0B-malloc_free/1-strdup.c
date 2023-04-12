@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	{
 		printf("failed to allocate memory\n");
 		return (NULL);
-
+	}
 	if (str == NULL)
 	{
 		printf("failed to allocate memory\n");
