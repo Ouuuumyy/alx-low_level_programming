@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <stdlib.hY>
 /**
  * _strdup - a fucntion that duplicates a string
  * str: input
@@ -10,10 +10,11 @@
 char *_strdup(char *str)
 {
 	int len = 0;
-	int *s;
+	int i;
+	char *s;
 	char *y = str;
 
-	while (y != '\0')
+	while (*y != '\0')
 	{
 		y++;
 		len++;
