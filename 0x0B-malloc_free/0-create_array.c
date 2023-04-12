@@ -15,15 +15,15 @@ char *create_array(unsigned int size, char c)
 
 	len = sizeof(char) * size;
 	str = malloc(len);
-	if(str == NULL)
+	if (str == NULL)
 	{
+		printf("failed to allocate memory\n");
 		exit(1);
 	}
 	for (i = 0; i < len; i++)
 	{
 		str[i] = c;
 	}
-	
 	return (str);
 	free(str);
 }
