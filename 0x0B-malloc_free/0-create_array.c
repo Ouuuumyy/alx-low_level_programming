@@ -5,6 +5,7 @@
  * create_array: a function that creates an array of chars
  * @size: size of the table
  * @c: the first character
+ * Description: create array of size 'size'
  * Return: s pointer to a char
  */
 char *create_array(unsigned int size, char c)

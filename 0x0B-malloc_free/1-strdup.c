@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _strdup - a fucntion that duplicates a string
- * str: input
+ * @str: input
  * Return: a pointer to the new string
  */
 
@@ -14,21 +14,21 @@ char *_strdup(char *str)
 	char *s;
 	char *y = str;
 
+	if (str == NULL)
+		return (NULL);
+
 	while (*y != '\0')
 	{
 		y++;
 		len++;
 	}
-	
-	if (str == NULL)
-	{
-		return (NULL);
-	}
+
 	s = malloc(sizeof(char) * len + 1);
 	if (s == NULL)
 	{
 		return (NULL);
 	}
+
 	for (i = 0; i < len; i++)
 	{
 		s[i] = str[i];
