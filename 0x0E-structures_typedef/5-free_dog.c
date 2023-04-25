@@ -5,7 +5,7 @@
  * free_dog - frees memory
  * @d: input
  */
-void free_dog(dot_t *dog)
+void free_dog(dog_t *dog)
 {
 	free(dog->name);
 	free(dog->owner);
