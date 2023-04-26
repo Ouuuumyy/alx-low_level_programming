@@ -1,6 +1,9 @@
 #include <stdlib.h>
-
-int main()
+/**
+ * main - prints the name of the current input file
+ * Return: 0 always
+ */
+int main(void)
 {
 	int size;
 	int i = 0;
@@ -11,7 +14,7 @@ int main()
 	p = &__FILE__;
 
 
-	while(p != '\0' && i < size)
+	while (p != '\0' && i < size)
 	{
 		_putchar(p[i]);
 		p++;
