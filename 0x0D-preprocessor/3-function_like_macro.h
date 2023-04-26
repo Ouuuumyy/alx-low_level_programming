@@ -1,16 +1,3 @@
 #ifndef ABS(x)
-#define ABS(x) y
-#ifndef y
-#define y
-
-{			\
-if (x < 0)		\
-{			\
-	int y = -(x);	\
-}			\
-else			\
-{			\
-	y = x;		\
-}			\
-}
+#define ABS(x) (((x) < 0) ? -(x) : (x))
 #endif
