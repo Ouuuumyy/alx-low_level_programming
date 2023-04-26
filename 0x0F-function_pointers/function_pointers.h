@@ -1,4 +1,7 @@
 #include <stddef.h>
+#include <stdio.h>
+#include <stdio.h>
+#include <stdio.h>
 
 #ifndef FUNCTION_PIONTERS_H
 #define FUNCTION_POINTERS_H
