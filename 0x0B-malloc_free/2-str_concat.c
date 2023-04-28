@@ -40,7 +40,8 @@ char *str_concat(char *s1, char *s2)
 	while (s2[ii] != '\0')
 	{
 		conct[ii] = s2[ii];
-		i++, ii++;
+		i++;
+	       	ii++;
 	}
 
 	concat[i] = '\0';
