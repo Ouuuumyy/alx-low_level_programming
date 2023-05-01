@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * get_nodeint_at_index - gets node
